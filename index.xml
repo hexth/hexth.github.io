@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>https://example.org/</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 24 Dec 2024 14:12:51 +0800</lastBuildDate>
+    <atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bash</title>
+      <link>https://example.org/posts/bash/</link>
+      <pubDate>Tue, 24 Dec 2024 14:12:51 +0800</pubDate>
+      <guid>https://example.org/posts/bash/</guid>
+      <description>&lt;p&gt;Created a new bash script to run Hugo to re-compile the site after an update and automatically push the update to Github.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Github Project</title>
+      <link>https://example.org/posts/github-project/</link>
+      <pubDate>Tue, 24 Dec 2024 13:23:38 +0800</pubDate>
+      <guid>https://example.org/posts/github-project/</guid>
+      <description>&lt;p&gt;After successfully setting up &lt;a href=&#34;https://hexth.com&#34;&gt;hexth.com&lt;/a&gt;, I realised that I&amp;rsquo;m pushing the whole Hugo site folder onto Github. While I do not have much of an issue with this, I think it can be better streamlined if only the &lt;code&gt;public&lt;/code&gt; folder get uploaded to Github.&lt;/p&gt;&#xA;&lt;p&gt;Too happy with having hexth.com working, I was a bit hesitant to mess with it too much and decided to create a Github Project page instead. I started with a new repo on Github named &lt;code&gt;cv&lt;/code&gt;. The site itself was created with Hugo locally. Instead of initialising git for the whole site folder, I initiated git only in the &lt;code&gt;public&lt;/code&gt; folder this time and then set up Hugo as usual.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Update on Hugo</title>
+      <link>https://example.org/posts/update-on-hugo/</link>
+      <pubDate>Tue, 24 Dec 2024 12:01:42 +0800</pubDate>
+      <guid>https://example.org/posts/update-on-hugo/</guid>
+      <description>&lt;p&gt;Successfully deployed Hugo on Github. Encountered some issues with Github Action but I ended up using a preset instead of following the guide. Next issue to tackle is custom domain.&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve recently acquired &lt;code&gt;hexth.com&lt;/code&gt; after its registration expired and decided to keep it together with &lt;code&gt;hexth.net&lt;/code&gt; for the time being. I then set up &lt;code&gt;hexth.com&lt;/code&gt; for this page and encountered a few difficulties; Github cant resolve the new domain properly until I did my domain verification, this issue resolved itself once domain verification was completed and https enforced.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hello World</title>
+      <link>https://example.org/posts/hello-world/</link>
+      <pubDate>Mon, 23 Dec 2024 16:35:25 +0800</pubDate>
+      <guid>https://example.org/posts/hello-world/</guid>
+      <description>&lt;h2 id=&#34;hello-world&#34;&gt;Hello World!&lt;/h2&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve tried using Hugo previously, perhaps around 10 years ago. Couldn&amp;rsquo;t remember if succeeded back then.&lt;/p&gt;&#xA;&lt;p&gt;Let&amp;rsquo;s see if hexth.com works this time.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
